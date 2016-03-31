@@ -1,0 +1,332 @@
+.courseTopicPrioList .showSubTopics,
+.courseTopicPrioList .showSubTopics:hover,
+.courseTopicPrioList .hideSubTopics,
+.courseTopicPrioList .hideSubTopics:hover{
+    color: #666;
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    font-size: 10px;
+    top: 0;
+}
+
+.courseTopicPrioList .showSubTopics .glyphicon,
+.courseTopicPrioList .hideSubTopics .glyphicon{
+    padding-right: 5px;
+}
+
+.courseTopicPrioList .courseTopicPrioList{
+    display:none;
+}
+
+.courseTopicPrioList .hiddenParentTopic .courseTopicPrioList{
+    display: block;
+}
+
+.hideSubTopics{
+    display: none;
+}
+
+input.inputError, select.inputError, textarea.inputError{
+    border-color: red !important;
+}
+
+span.inputError, label.inputError{
+    color:red;
+}
+
+.errorBox{
+    border: 1px solid red;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.errorBox .errorBoxMsg{
+    color:red;
+}
+
+a.editLink, a.editLink:hover, a.editLink:active{
+    color: #333;
+    text-decoration: none;
+}
+
+/* form */
+label {font-weight: normal;}
+.formRow{
+    overflow: hidden;
+    margin: 7px 0;
+}
+.formRow label{
+    display: block;
+    width: 200px;
+    float: left;
+    line-height: 30px;
+}
+
+.formRow input{
+    margin: 0;
+    height: 30px;
+}
+
+.formRow a{
+    line-height: 30px;
+}
+
+.courseTopicPrioList{
+    list-style: none;
+    margin: 25px 10px;
+    max-width: 400px;
+}
+
+.courseTopicPrioList li{
+    margin: 10px 0;
+    position: relative;
+}
+
+.courseTopicPrioList li ul{
+    margin: 5px 0 20px 20px;
+}
+
+.courseTopicPrioList li ul li{
+    
+}
+
+.courseTopicPrioList .hiddenTopic{
+    display: none;
+}
+
+.courseTopicPrioList .hiddenParentTopic{
+    display: block;
+}
+
+.courseTopicPrioList .hiddenParentTopic a,
+.courseTopicPrioList .hiddenParentTopic .slider,
+.courseTopicPrioList .hiddenParentTopic .visibleTopic .courseTopicPrioList{
+    display: none;
+}
+
+.courseTopicPrioList .hiddenParentTopic .visibleTopic span, 
+.courseTopicPrioList .hiddenParentTopic .visibleTopic a.showSubTopics{
+    display: inline;
+}
+
+.courseTopicPrioList .hiddenParentTopic .visibleTopic .slider{
+    display: block;
+}
+
+/* view */
+.intervalGoalOverviewContainer{
+    padding: 0 10px 10px 10px;
+}
+
+.intervalGoalOverviewEntry .goalStatusIcon{
+    padding: 5px 5px 10px 5px;
+}
+
+.intervalGoalOverviewEntry .glyphicon-pencil{
+    padding-left: 10px;
+}
+
+.goalStatusIcon.glyphicon-ok-sign{
+    color: green;
+}
+.goalStatusIcon.glyphicon-remove-sign{
+    color: red;
+}
+.goalStatusIcon.glyphicon-question-sign{
+    color: #aaaa00;
+}
+
+.courseGoalList li.courseGoalEntry{
+    margin: 5px 0;
+}
+
+/* bar charts */
+.statsContainer{
+        overflow: hidden;
+        max-width: 800px;
+        min-width: 400px;
+        margin: 10px 0;
+        height: 300px;
+}
+
+.statsLeft{
+        float: left; 
+        width: 70%;
+        height: 100%;
+}
+
+.statsRight{
+        float: left; 
+        width: 30%;
+        height: 100%;
+}
+
+.graphDescriptionText{
+
+}
+
+.barGraphDescriptionBox{
+        height: 200px;
+}
+
+.barGraphDescriptionBox .graphDescriptionText, .barGraphDescriptionBox .nodeDescriptionText, .barGraphDescriptionBox .legendContainer{
+        background-color: #989898;
+        color: #FFFFFF;
+        padding: 3px 5px;
+        margin-bottom: 10px;
+}
+
+.barGraphDescriptionBox .legendContainer{
+        padding: 3px;
+}
+
+.barGraphDescriptionBox .legendContainer .graphLegend{
+        margin: 0;
+        background-color: #FFFFFF;
+        padding: 0 0 10px 3px;
+}
+
+.barGraphDescriptionBox .legendContainer .legendHeadline{
+        margin-bottom: 5px;
+}
+
+.barGraphDescriptionBox .graphLegend li{
+        overflow: hidden;
+}
+
+.barGraphDescriptionBox .legendSymbol{
+        width: 12px;
+        float: left;
+        height: 12px;
+        margin-top: 4px;
+}
+
+.barGraphDescriptionBox .legendText{
+        color: #989898;
+        margin-left: 15px;
+}
+	
+
+.navigationLink, .navigationLink:visited{
+        background-color: #f5f5f5;
+        border: 1px solid #e3e3e3;
+        border-radius: 5px;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        color: #777;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0 20px;
+        padding: 5px 10px;
+        text-decoration: none;
+        display: inline-block;
+}
+
+.navigationLink:hover, .navigationLink:active{
+        text-decoration: none;
+        color: white;
+        background-color: #989898;
+        border-color: #989898;
+}
+
+.navigationLink .glyphicon {
+        padding-right: 5px;
+}
+	
+.infoBox{
+        margin-bottom: 25px;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #e3e3e3;
+}
+.infoBox h3 {
+        background-color: #f5f5f5;
+        color: #666;
+        border-radius: 10px 10px 0 0;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 10px;
+        padding: 4px 10px 7px;
+  }
+
+.infoBox h3 .glyphicon{
+        font-size: 24px;
+        line-height: 24px;
+        position: relative;
+        top: 4px;
+        background-color: white;
+        border-radius: 25px;
+        margin-right: 5px;
+}
+
+.infoBox h3 .glyphicon.glyphicon-stats{
+    background-color: inherit;
+}
+
+.infoBox .infoTextContainer{
+        color: #333333;
+}
+
+.infoBox .infoTextContainer p{
+        padding: 0 10px 10px 10px;
+        margin: 0;
+}
+
+.infoBox .graphContainer{
+        overflow: hidden;
+        /*max-width: 800px;*/
+        min-width: 400px;
+        /*margin: 10px 0;*/
+        height: 300px;
+        padding: 10px;
+}
+
+.infoBox .infoMoreTextLink, .infoBox .infoMoreTextLink:active {
+        display: block;
+        border-radius: 0 0 10px 10px;
+        padding: 4px 10px;
+        background-color: #f5f5f5;
+        /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;*/
+        color: #666;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+.infoBox .infoTextMore{
+        display: none;
+}
+
+.infoBox .formContent{
+    padding: 10px;
+}
+
+.intervalGoalContainer {
+   
+}
+
+.intervalGoalContainer .formRow label{
+    width: 250px;
+}
+
+.infoBox .numberedList{
+    list-style: decimal; 
+    padding: 0 10px;
+    margin: 0 10px 10px 20px;
+}
+
+.infoBox .numberedList li{
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+
+.infoBox .retrospectiveForm .formRow{
+    margin-bottom: 15px;
+}
+
+.infoBox .retrospectiveForm label{
+    width: 250px;
+}
+
+.infoBox .retrospectiveForm textarea{
+    width: 400px;
+}

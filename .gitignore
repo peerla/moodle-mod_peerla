@@ -1,0 +1,9 @@
+*
+!.gitignore
+!mod/
+!mod/
+!mod/peerla/
+!mod/peerla/*
+!blocks/
+!blocks/kom_peerla/
+!blocks/kom_peerla/*
